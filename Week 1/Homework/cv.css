@@ -1,0 +1,85 @@
+body {
+    margin-bottom: 930px;
+    background-image: url(http://fifo.com.bd/wp-content/uploads/2016/10/Contact-us-background.jpg);
+    line-height: 2em;
+    
+}
+
+.header {
+    position: fixed;
+    right: 402px;
+    text-align: center;
+    background-color: transparent;
+    border: orange 10px solid;
+    border-radius: 5px;
+    width:640px;
+    text-decoration: inherit;
+    
+}
+
+.contactinfo {
+    text-align: center;
+    padding-right: 50px;
+    padding-bottom: 320px;
+    position: absolute;
+    right: 90px;
+    top: 200px;
+    border-right:orange 3px solid
+}
+
+.profileimage {
+    width: 200px;
+    height: 200px;
+    border: 3px orange dashed;
+    padding: 10px;
+}
+
+.leftinfo {
+    text-align: left;
+    border-right: darkgray solid;
+    padding-right: 240px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    background-color:gainsboro;
+    border: orange 3px solid;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+h2{
+    color: orange;
+}
+
+.hover:hover {
+    background-color:yellow;
+}
+
+.button1 {
+    position: absolute;
+    right:200px;
+    bottom: 500px;
+    background-color:black;
+    color:white;
+    border: 3px orange solid;
+    padding: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    border-radius: 10px;
+    
+}
+.button1:hover {
+    background-color: dimgray;
+    color:orange
+}
+
+.socialmediaicons {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    right: 125px;
+    top: 650px;
+    
+}
