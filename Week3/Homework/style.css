@@ -1,0 +1,333 @@
+body {
+    margin-top: -100px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: azure;
+     
+
+}
+html {
+    color: black;
+    line-height: 20px;
+    font-size: 15px bold;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 200px;
+    position: relative;
+    left: 45%;
+    margin-top: 60px;
+}
+
+.home {
+    list-style-type: none;
+    text-align: center;
+    background-color: #0073cf;
+    font-size: 17px;
+    padding: 10px;
+    width: 100px;   
+}
+.home:link {
+    color: black;
+    text-decoration: none;
+}
+
+.home:hover {
+    background: #87cefa;
+}
+
+.zoeken {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    top: 250px;
+    
+}
+
+.searchSubmit {
+   border: 3px solid #0073cf;
+   padding: 3px;
+   background-color: white;
+   width: 5%;
+   
+}
+
+.mainpicture {
+    width: 100%;
+    margin-top: -20px;
+    
+}
+.mainmenu1 {
+    background-color: #345EB2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.mainmenu1 li {
+    list-style-type: none;
+    text-align: center;
+    margin:1%;
+    padding: 10px;
+    width: 300px;
+    height: 130px;
+    transition: all 0.5s linear;
+}
+
+.mainmenu1 :link {
+    color: black;
+    text-decoration: none;
+}
+
+.mainmenu1 li:hover {
+    background: #87cefa;
+}
+
+.title-h2 {
+    clear: left;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    margin-left: 140px;
+    text-align: left;
+}
+
+#mainmenu2 {
+    height: 100%;
+}
+#mainmenu2 li {
+    list-style-type: none;
+    text-align: center;
+    background-color: #4169e1;
+    padding-top: 20px;
+    width: 30%;
+    height:35px;
+    margin: 1px;
+}
+
+#mainmenu2 li :link {
+    text-decoration: none;
+    color: black;
+}
+
+#mainmenu2 li:hover {
+    background-color: #87cefa;
+}
+
+.rijksoverheid-logo {
+    width: 500px;
+    height: 400px;
+    margin-bottom: -400px;
+    position: relative;
+    left: 600px;
+    bottom: 530px;
+    opacity: 0.4;
+}
+#picturenews {
+    background-color: #d7e9f1;
+}
+
+#picturenews li {
+    text-align: center;
+    list-style-type: none;
+    width: 33.3%;
+    height: 40%;
+    float: left;
+    transition: all 0.5s linear;
+}
+
+#picturenews img {
+    width: 90%;
+}
+
+#picturenews :link {
+    color: black;
+    text-decoration: none;
+}
+
+#picturenews li:hover {
+    background-color: #cfebfd;
+}
+
+.news {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.news li {
+    list-style-type: none;
+    background-color: #4169e1;
+    text-align: center;
+    margin:1%;
+    padding: 10px;
+    width: 350px;
+    height: 220px;
+    transition: all 0.5s linear;
+    
+}
+
+.news :link {
+    color: white;
+    text-decoration: none;
+}
+
+.news li:hover {
+    background-color: #2A1180;  
+}
+
+.meer-nieuws:link {
+    color:black;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+}
+
+.info li {
+    list-style-type: none;
+    text-align: center;
+    border: 3px solid #4169e1;
+    margin: 5%;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding-top: 20px;
+    line-height: 50px;
+    transition: all 0.5s linear;
+}
+
+.info :link {
+    color:black;
+    text-decoration: none;
+}
+
+.info li:hover {
+    padding-top: 60px;
+    width: 320px;
+    height: 210px;
+}
+
+.footer {
+    list-style-type: none;
+    border-top: 10px solid #87cefa; 
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    background-color: #0073cf;
+    padding: 50px;
+}
+
+.footer li {
+   list-style-type: none;
+    
+}
+
+.footer :hover {
+    color: black;
+}
+
+.footer :link {
+    color :white;
+    text-decoration: none;
+}
+
+.footerh2 {
+    color: white;
+}
+
+
+
+
+/* Tablets & Ipads */
+@media screen
+    and (min-width: 700px)
+    and (max-width: 1024px) {
+        
+        .mainpicture {
+        padding-top: 11%;
+        }
+        
+        .home {
+            width: 14%;
+            position: absolute;
+            top: 16%;
+            left: 41%;
+        }
+        .logo {
+            display: none;
+        }
+        .zoeken {
+            display: none;
+        }
+        .searchSubmit {
+           display: none;
+        }
+        
+        .mainmenu1 li {
+            width: 90%;
+        }
+        #mainmenu2 li {
+            width: 90%;
+        }
+        .news li {
+            text-align: center;
+            width: 700px;
+        }
+        .rijksoverheid-logo {
+            display: none;
+        }
+        }
+
+/* Phones and Handhelds */
+@media screen
+    and (min-width: 0px)
+    and (max-width: 700px) {
+        
+        .mainpicture{
+        padding-top: 27%;
+        }
+        .home {
+            position: absolute;
+            top: 1px;
+        }
+        .logo {
+            display: none;
+        }
+        .zoeken {
+            display: none;
+        }
+        .searchSubmit {
+           display: none;
+        }
+        
+        .mainmenu1 li {
+            width: 90%;
+        }
+        #mainmenu2 li {
+            width: 90%;
+        }
+        .news li {
+            text-align: center;
+            width: 700px;
+        }
+        .info li {
+            text-align: center;
+            flex-direction: column;
+            
+        }
+        .footer {
+            flex-direction: column;
+            text-align: center;
+            line-height: 35px;
+        }
+        .rijksoverheid-logo {
+            display: none;
+        }
+}
