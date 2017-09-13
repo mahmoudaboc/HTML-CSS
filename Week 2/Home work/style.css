@@ -1,0 +1,166 @@
+
+ *:before, *after:{
+    box-sizing: border-box;
+   
+}
+
+html {
+    width: 95%;
+    text-align: center;
+}
+/**  Main Title **/
+h1, h2 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    line-height: 50px;
+}
+
+
+
+/**  BODY **/
+
+body {
+    line-height: 20px;
+    background: url(https://www.mibebeyyo.com/images/home/aire-48560.jpg) no-repeat fixed;
+    background-size: 100% 100%;
+    
+    
+}
+
+p {
+    text-align: center;
+    font-family:serif;
+    
+}
+
+/**image **/
+
+img {
+   position: static;
+   right:200px;
+    width: 190px;
+    
+}
+
+/**grid-floats**/
+
+#grid-floats {
+    text-align: center;
+    width: 100%;
+    
+}
+
+#grid-floats li {
+    list-style-type: none;
+    text-align: center;
+    height: 400px;
+    width:32%;
+    border: 2px solid black;   
+    float: left; 
+}
+
+#grid-floats li:nth-child(1){
+    width: 48%;   
+}
+#grid-floats li:nth-child(2){
+    width: 48%;   
+}
+
+
+/**Grid with flexbox**/
+
+#grid-flex {
+   display:flex;
+   flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    
+}
+
+#grid-flex li {
+    border: solid 2px black;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    width: 24%;
+    height: 400px;    
+}
+
+#grid-flex li:nth-child(1){
+    width: 48%;   
+}
+#grid-flex li:nth-child(2){
+    width: 48%;   
+}
+    
+/** HOVER **/
+
+#grid-floats :hover{
+    background-color: white;
+    text-shadow:  10px 10px 10px  #000000;
+    box-decoration-break: slice;
+    
+}
+
+#grid-flex :hover{
+    background-color: azure;
+    text-shadow:  10px 10px 10px  #000000;
+    
+}
+
+/* Ipads & Tablets */
+
+@media screen
+    and (min-width: 480px)
+    and (max-width: 1024px) {
+        #grid-floats li {
+            width: 48%;
+        }
+        
+        #grid-flex li{
+            width: 48%;
+        }
+}
+
+/* Phones */
+
+@media screen
+    and (min-width: 300px)
+    and (max-width: 480px) {
+        html {
+            text-align: center;
+            width: 90%;
+        }
+        p {
+            font-size: 80%;
+        }
+        
+        h1, h2 {
+            font-size: 30px;
+        }
+        
+        #grid-floats li {
+            width: 95%;
+        }
+        
+        #grid-floats li:nth-child(1){
+            width: 95%;   
+        }
+        #grid-floats li:nth-child(2){
+            width: 95%;   
+        }
+        #grid-flex li {
+            width: 95%;
+        }
+        #grid-flex li:nth-child(1){
+            width: 95%;   
+        }
+        #grid-flex li:nth-child(2){
+            width: 95%;   
+        }
+        
+        img {
+            width: 70%;
+        }
+}
